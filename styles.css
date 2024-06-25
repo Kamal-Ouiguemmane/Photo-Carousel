@@ -12,20 +12,22 @@ body {
 }
 
 .carousel-container {
-  background-color: lightgreen;
   padding: 1.2em;
   border-radius: 1.2em;
+  box-shadow: 4px 4px 16px rgb(255, 255, 255);
 }
 
 .photo-container {
+  display: flex;
   width: 450px;
   height: 450px;
   border-radius: 1.2em;
-  background-color: aqua;
+  background-color: lightgreen;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .button-container {
-  background-color: green;
   display: flex;
   justify-content: center;
   gap: 0.5em;
@@ -38,4 +40,5 @@ body {
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   background-image: linear-gradient(rgb(255, 255, 255), rgb(247, 247, 247));
+  box-shadow: 0 1px 5px rgb(177, 176, 176), inset 1px 1px 2px rgb(255, 255, 255);
 }
